@@ -1,11 +1,11 @@
 # Params used if running Kimera-VIO
-executable_path: '$HOME/Code/Kimera-VIO/build/stereoVIOEuroc'
-vocabulary_path: '$HOME/Code/Kimera-VIO/vocabulary/ORBvoc.yml'
-params_dir: '$HOME/Code/Kimera-VIO/params'
+executable_path: '/root/hydra/ws/build/kimera_vio/stereoVIOEuroc'
+vocabulary_path: '/root/hydra/ws/src/kimera_vio/vocabulary/ORBvoc.yml'
+params_dir: '/root/hydra/ws/src/kimera_vio/params/Euroc'
 
 # Params used for evaluation
-dataset_dir: '$HOME/Code/ROS/kimera_ws/src/Kimera-VIO-ROS/output_logs'
-results_dir: '$HOME/Code/Kimera-VIO-Evaluation/results'
+dataset_dir: '/root/hydra/ws/src/data/euroc'
+results_dir: '/root/hydra/ws/src/Kimera-VIO-Evaluation/results'
 
 datasets_to_run:
  - name: Tesse
